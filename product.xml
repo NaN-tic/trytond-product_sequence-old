@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!-- This file is part product_sequence module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="ir.sequence.type" id="sequence_type_product">
+            <field name="name">Product</field>
+            <field name="code">product.product</field>
+        </record>
+        <record model="ir.sequence.type-res.group"
+            id="sequence_type_product_group_admin">
+            <field name="sequence_type" ref="sequence_type_product"/>
+            <field name="group" ref="res.group_admin"/>
+        </record>
+        <record model="ir.sequence.type-res.group"
+            id="sequence_type_product_group_product_admin">
+            <field name="sequence_type" ref="sequence_type_product"/>
+            <field name="group" ref="product.group_product_admin"/>
+        </record>
+
+        <record model="ir.sequence" id="sequence_product">
+            <field name="name">Product</field>
+            <field name="code">product.product</field>
+        </record>
+    </data>
+</tryton>

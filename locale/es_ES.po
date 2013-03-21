@@ -1,0 +1,11 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "model:ir.sequence,name:sequence_product"
+msgid "Product"
+msgstr "Producto"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_product"
+msgid "Product"
+msgstr "Producto"
