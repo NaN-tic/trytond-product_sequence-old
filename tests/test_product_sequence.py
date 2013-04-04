@@ -25,12 +25,6 @@ class ProductSequenceTestCase(unittest.TestCase):
     def setUp(self):
         trytond.tests.test_tryton.install_module('product_sequence')
 
-    def test0005views(self):
-        '''
-        Test views.
-        '''
-        test_view('product_sequence')
-
     def test0006depends(self):
         '''
         Test depends.
